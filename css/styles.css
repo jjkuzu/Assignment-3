@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  color: #EFD4F7;
+  background-color: #FB9902;
+  font-family: 'Pacifico', cursive;
+}
+
+#header-nav {
+  background-color: #FCCB1A;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-static-top {
+  align-content: center;
+}
+.navbar-brand h1 {
+  font-family: system-ui;
+  font-weight: bold;
+  color: #C21460;
+  text-shadow: 1px 1px 3px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+  padding: 0;
+
+  line-height: .5;
+
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#page-heading {
+  color: #C21460;
+    font-weight: bolder;
+      text-shadow: 1px 1px 3px #222;
+
+}
+#nav-list {
+
+  font-weight: bolder;
+    color: #264d73;
+}
+#nav-list a {
+  color: #264d73;
+  text-align: center;
+  background: lightyellow;
+}
+#nav-list a:hover {
+  background: #347B98;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#really-tall-text, #thirdItem {
+  background-color: #bisque;
+  padding: 10px 10px 10px 10px; 
+}
+
+.menu-item-description {
+  padding:  0 30px 30px 30px;
+  background: maroon;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#backToTop {
+      text-shadow: 1px 1px 3px #222;
+}
+
+h3.menu-item-title {
+  color: #C21460;
+  text-shadow: 1px 1px 3px #222;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  #thirdItem, #really-tall-text{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  #really-tall-text {
+    width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 40px;
+  }
+   #thirdItem   {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+#really-tall-text, #thirdItem {
+    float: left;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+}
